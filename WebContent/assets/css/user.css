@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(1deg, #8be8cf  0%, #cdeb8b 100%);/* W3C */
+    background: -webkit-linear-gradient(1deg, #8be8cf  0%, #cdeb8b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(1deg, #8be8cf  0%, #cdeb8b 100%);/* Opera 11.10+ */
+    background: -moz-linear-gradient(1deg, #8be8cf  0%, #cdeb8b 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(1deg, #8be8cf  0%, #cdeb8b 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8be8cf', endColorstr='#cdeb8b',GradientType=1 ); /* IE6-8 fallback on horizontal gradient*/
+    /* background: -webkit-gradient(linear, left bottom, right top, color-stop(1%,#b4e391), color-stop(49%,#61c419), color-stop(100%,#b4e391)); /* Chrome,Safari4+ */
+         
+}
+
+
+.navbar .nav  li.bar{
+    background: url('../img/menu_line.jpg') no-repeat scroll right;
+        /*float: left;*/
+    position: relative;
+
+}
+.navbar .nav .active > a {
+color: #fff;
+    font-weight: bolder;
+
+background-color: #121212;
+}
+
+.navbar .nav li:hover, .navbar .nav .active > a:hover {
+    background-color: #333;
+
+}
+.navbar .nav li#users:hover {
+background-color: #e62727;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#mark:hover {
+background-color: #ff5c00;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#dept:hover {
+background-color: #D4A017;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#revma:hover {
+background-color: #91bd09;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#revap:hover {
+background-color: #00ADEE;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#paper:hover {
+background-color: #2c539e;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#admin:hover {
+background-color: #4B0082;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#fb:hover {
+background-color: #3b5998;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#twitter:hover {
+background-color: #4099FF;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#youtube:hover {
+background-color: #FF3333;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+.navbar .nav li#linkedin:hover {
+background-color: #4875B4;
+box-shadow: rgba(0, 0, 0, 0.75) 0 1px 25px 0px inset;
+}
+}

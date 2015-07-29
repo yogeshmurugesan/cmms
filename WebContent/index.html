@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>C&nbsp;M&nbsp;M&nbsp;S&nbsp;</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/user.css" rel="stylesheet">
+
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/ico/bootstrap-apple-72x72.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/bootstrap-apple-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/bootstrap-apple-114x114.png">
+        <script type="text/javascript">
+            function checknull()
+            {
+
+                if(document.form1.t1.value=="")
+                {
+                    alert("type user id(no)");
+                    document.form1.t1.focus();
+                    return false;
+                }
+
+                return true;
+            }
+
+        </script>
+
+
+
+    </head>
+    <body><br>
+        <br><br><br>
+        <br><br><br>
+
+        <div class="container" >
+            <br> <div class="row space20" >
+                <div class="span7 well">
+                    <form name="form1" class="form-horizontal" method="post" action="pubviewmark.jsp" onSubmit="return checknull()">
+                        <fieldset>
+                            <legend>MARK
+                                <span class="space31">
+                                    <a href="index1.html">Log in?</a>
+                                </span>
+                            </legend>
+
+
+                            <div class="control-group">
+                                <label class="control-label" for="t1">Exam no</label>
+                                <div class="controls">
+
+                                    <div class="input-prepend">
+                                        <span class="add-on"><i class="icon-star"></i></span>
+                                        <input type="text" class="input-large" id="t1" name="t1" placeholder="Exam no.."/>       <br><br>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <div class="controls">
+                                    <span class="space5"></span>
+                                    <button class="btn" type="submit" >
+                                        <i class="icon-lock"></i> Get It
+                                    </button>
+
+                                    <span class="space4">
+                                        <a href="revaluation.html">Revaluation Mark?</a>
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
